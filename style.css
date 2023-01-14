@@ -283,3 +283,44 @@ header {
   justify-content: space-between;
 }
 /* sponsorship end */
+/* -------cta start----- */
+.cta {
+  padding: 96px 0;
+  background-color: #dcd2c6;
+  margin-bottom: 130px;
+}
+.cta div {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cta div h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+/* px-8 py-3 font-semibold rounded */
+.cta-btn {
+  padding: 12px 32px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+/* -----cta end------ */
+/* ----------footer start---------- */
+footer {
+  width: 1440px;
+  margin: auto;
+  margin-bottom: 254px;
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 30px 0;
+  text-align: center;
+}
+.footer p {
+  font-size: 20px;
+  color: #424242;
+}
