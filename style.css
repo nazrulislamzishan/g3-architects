@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* ----header start-------- */
+/* nav start */
+header {
+  height: 1322px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 1390px;
+  margin: auto;
+  padding: 48px 0;
+  align-items: center;
+  margin-bottom: 116px;
+}
+.nav-logo {
+  width: 302px;
+  /* height: 53px; */
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.nav-links a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  text-decoration: none;
+}
+/* nav end */
+/* banner start */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+.banner-content {
+  text-align: center;
+  width: 862px;
+}
+.banner-title {
+  font-weight: 700px;
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+.banner-desc {
+  margin-bottom: 46px;
+  width: 868px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.banner-content a {
+  width: 180px;
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 22px;
+  text-decoration: none;
+  color: azure;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* ----banner end ------ */
+/* ------header end ------- */
